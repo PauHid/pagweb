@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://scontent.faqp2-1.fna.fbcdn.net/v/t39.30808-6/311638282_3379098422371930_6111832920168457549_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGbRmEPXI5erv6dXh6tSaSxgOgaC4LHnamA6BoLgsedqW2D-1ojLzMIKaf5vvYy2nmyI4kccf0Je8T50kWLVrEY&_nc_ohc=jTnwkikkw4MAX9hMk7m&_nc_ht=scontent.faqp2-1.fna&oh=00_AT_VtsM2aRu9SnMstZ5vzd1a4iYqtR3Qza_QjDbkOi0UdQ&oe=635E2B76');
+    background-size: cover;
+    font-family:  'Centuri Gothic', sans-serif;
+}
+
+.box {
+    width: 500px;
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box-img{
+    border-radius: 50%;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight:  100;
+    margin: 30px 0 20px;
+}
+
+.box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight:  100;
+    margin-bottom: 20px;
+}
+
+.box p {
+    text-align: justify;
+}
+
+.box ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.box ul li {
+    display: inline-block;
+}
+
+.box ul li a {
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.box ul li a:hover {
+    color: #b9b9b9;
+    transform: scale(1.1);
+}
